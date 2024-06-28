@@ -1,0 +1,4 @@
+sailpoint-embed:
+  sailpoint_embed_enabled:
+    default: false
+    client: true
