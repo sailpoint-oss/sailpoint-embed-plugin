@@ -13,7 +13,7 @@ module ::SailPointEmbed
   PLUGIN_NAME = "sailpoint-embed"
 end
 
-require_relative "lib/discourse-embed/embed_controller_extension"
+require_relative "app/controllers/embed_controller_extension"
 
 after_initialize do
   reloadable_patch do
